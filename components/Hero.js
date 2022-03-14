@@ -24,7 +24,7 @@ const Hero = () => {
         <div className={style.contentWrapper}>
           <div className={style.copyContainer}>
             <div className={style.title}>
-              Discover, collect, and sell extraordinary NFTs
+              Discover, collect, and sell<br/> extraordinary NFTs
             </div>
             <div className={style.description}>
               BlueSea is the world&apos;s first and largest NFT marketplace
@@ -52,6 +52,8 @@ const Hero = () => {
                   className="text-[#1868b7]"
                   href="https://opensea.io/assets/0xb932a70a57673d89f4acffbe830e8ed7f75fb9e0/28698"
                 >
+                  {/* This is the author name */}
+                  erubesl
                 </a>
               </div>
             </div>
